@@ -20,7 +20,7 @@ struct FavoriteButton: View {
                     "Toggle Favorite",
                     systemImage: isSet ? "star.fill" : "star"
                 )
-                .labelStyle(DefaultLabelStyle())
+                .labelStyle(IconOnlyLabelStyle())
                 .foregroundColor(isSet ? .yellow : .gray)
             }
         )
